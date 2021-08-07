@@ -7,7 +7,8 @@
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-<div class="container" id="container">
+<div class="register">
+<div class="container_register" id="container">
     <div class="form-container sign-up-container">
         <form action="#">
             <h1>Create Account</h1>
@@ -60,7 +61,7 @@
         </div>
     </div>
 </div>
-
+</div>
 
 <script>
     const signUpButton = document.getElementById('signUp');

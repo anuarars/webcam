@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <title></title>
 </head>
-<body>
+
 
 <header>
     <a href="#" class="brand">Webcam</a>
@@ -15,10 +15,13 @@
 
     <div class="navigation">
         <div class="navigation-items">
-            <a href="#">Sign in</a>
+            <a href="{{route('register')}}">Sign in</a>
         </div>
     </div>
 </header>
+<body>
+<div class="welcome">
+
 
 <section class="home">
     <video class="video-slide active" src={{ asset('videos/2.mp4') }} autoplay muted loop></video>
@@ -85,6 +88,6 @@
         });
     });
 </script>
-
+</div>
 </body>
 </html>
